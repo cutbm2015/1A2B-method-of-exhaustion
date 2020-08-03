@@ -1,6 +1,5 @@
 # 1A2B-method-of-exhaustion
 
-介紹：使用窮舉法列出 1A2B 遊戲的所有可能，並推斷出最終答案。
 Introduction: Perform an method of exhaustion for 1A2B games and infer the correct answer.
 
 Abbreviation:
