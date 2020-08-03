@@ -1,4 +1,4 @@
-// _1A2B.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
+﻿// _1A2B.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
 //
 
 #include <iostream>
@@ -36,7 +36,7 @@ void deleteNum(int i) {
         possiblePool.erase(f);
     }
 }
-void deleteNumContent(int target) {
+void deleteNumInclude(int target) {
     vector<int> v_pool;
     vector<int> v_del;
     for (int i = 3; i >= 0; i--) {
@@ -116,7 +116,7 @@ int verifyB(int ans, int gue) {
 }
 void exhaustion(int gue, int A, int B) {
     if (A == 0 && B == 0) {
-        deleteNumContent(gue);
+        deleteNumInclude(gue);
     }
     for (int i = 0; i <= 9999; i++) {
         if (verifyA(i, gue) != A ) {
