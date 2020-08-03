@@ -1,4 +1,4 @@
-# 1A2B-method-of-exhaustion
+# 1A2B-method-of-exhaustion 1A2B 窮舉法破解器
 
 # Introduction
     
