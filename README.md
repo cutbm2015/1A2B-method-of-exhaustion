@@ -17,27 +17,27 @@ Abbreviation:
 
 Function:
 
-  void possiblePoolInit()
+  1. void possiblePoolInit()
     Write a number from 0 to 9999 to 'possiblePool'.
 
-  void validNum(int ip)
+  2. void validNum(int ip)
     check whether ip('ip' is a four-digit number and it's short for 'input') follows the following rules
       1.There are no duplicates in the four digits.
 
-  void deleteNum(int i) 
+  3. void deleteNum(int i) 
     delete 'i' from 'possiblePool'.
 
-  void deleteNumInclude(int target)
+  4. void deleteNumInclude(int target)
     Delete the number in possiblePool that matches 'target'(When at least one digit matches).
       for example : In possiblePool we have 1234, 1345, 1456, 1567, 1678, 1789 and the 'target' is 2379 then the number contain 2,3,7,9 in the possiblePool will be deleted.
       result : 1456, 1678 will be left.
 
-  int verifyA(int ans, int gue)
+  5. int verifyA(int ans, int gue)
     return how many 'A's.
 
-  int verifyB(int ans, int gue)
+  6. int verifyB(int ans, int gue)
     return how many 'B's.
 
-  void exhaustion(int gue, int A, int B)
+  7. void exhaustion(int gue, int A, int B)
     Remove numbers that do not follow 'A' and 'B' rules.
   
