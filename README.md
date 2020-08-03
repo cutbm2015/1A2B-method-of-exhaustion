@@ -7,7 +7,7 @@
 
 
 
-# Abbreviation:
+# Abbreviation
 
   1. Words
 
@@ -20,7 +20,7 @@
 
     v_ - vector.
 
-# Function:
+# Function
 
   1. void possiblePoolInit() - 
     
