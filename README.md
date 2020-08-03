@@ -1,10 +1,13 @@
 # 1A2B-method-of-exhaustion
 
-# Introduction: Perform an method of exhaustion for 1A2B games and infer the correct answer.
+# Introduction
+    
+    使用窮舉法列出 1A2B 遊戲中的所有可能，並推斷出正確答案。
+    Perform an method of exhaustion for 1A2B games and infer the correct answer.
 
-# 介紹：使用窮舉法列出 1A2B 遊戲中的所有可能，並推斷出正確答案。
 
-Abbreviation:
+
+# Abbreviation:
 
   1. Words
 
@@ -17,7 +20,7 @@ Abbreviation:
 
     v_ - vector.
 
-Function:
+# Function:
 
   1. void possiblePoolInit() - 
     
@@ -60,5 +63,6 @@ Function:
     刪除不符合 A, B 數量的值。
     Remove numbers that do not follow 'A' and 'B' rules.
     
-    
-#1A2B Games #1A2B 遊戲 #1A2B 破解器
+# Keywords
+  
+    #1A2B Games #1A2B 遊戲 #1A2B 破解器
