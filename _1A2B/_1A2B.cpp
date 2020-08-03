@@ -1,13 +1,11 @@
-﻿// _1A2B.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
-//
-
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <vector>
 #include <cmath>
 #include <algorithm>
 
 using namespace std;
+
 vector<int> possiblePool;
 bool validNum(int ip) {
     vector<int> target;
