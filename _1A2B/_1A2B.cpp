@@ -52,8 +52,7 @@ void deleteNumInclude(int target) {
         }
         for (int j = 0; j < 4; j++) {
             if (count(v_pool.begin(), v_pool.end(), v_del.at(j)) > 0) {
-                deleteNum(p);
-                cout << "del" << p << " succ";
+                deleteNum(p);                
             }
         }
     }
@@ -137,14 +136,19 @@ int main()
         cin >> guess;
 
         if (answer == 0) {
+
             cout << "A值: ";
             cin >> gueA;
             cout << "B值: ";
             cin >> gueB;
+            if (gueA + gueB > 4) {
+                cout << "parameter error.";
+                return 1;
+            }
         }
         else {
             if (guess == answer) {
-                cout << "correct!" << endl;
+                cout << "correct." << endl;
                 return 0;
             }
             gueA = verifyA(answer, guess);
@@ -155,6 +159,17 @@ int main()
         exhaustion(guess, gueA, gueB);
 
         cout << "可能值: ";
+        if (possiblePool.empty()) {
+            cout << "無" << endl;
+            return 0;
+        }
+        else if (possiblePool.size() == 1) {
+            if (possiblePool.at(0) < 1000) {
+                cout << "0";
+            }
+            cout << possiblePool.at(0);
+            return 0;
+        }
         for (auto p : possiblePool) {
             if (p < 1000) {
                 cout << "0";
