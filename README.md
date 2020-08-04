@@ -1,4 +1,4 @@
-# 1A2B-method-of-exhaustion 1A2B 窮舉法破解器
+# 1A2B-method-of-exhaustion 1A2B 窮舉法破解 1A2B 破解程式
 
 # Introduction
     
@@ -65,4 +65,4 @@
     
 # Keywords
   
-    #1A2B Games #1A2B 遊戲 #1A2B 破解器
+    #1A2B Games #1A2B 遊戲 #1A2B 破解器 #1A2B 破解程式
